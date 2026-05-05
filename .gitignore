@@ -1,3 +1,5 @@
+.gitignore
+
 # ── Python ────────────────────────────────────
 __pycache__/
 *.py[cod]
@@ -39,3 +41,6 @@ scanner.log
 Thumbs.db
 
 Dna9a
+exposed
+old
+raport
