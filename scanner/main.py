@@ -434,7 +434,14 @@ def run_export(scan_id: str, fmt: str = "json") -> None:
 
 def main():
     """Point d'entrée principal."""
-    if os.geteuid() != 0:
+    # os.geteuid() is POSIX-only; guard gracefully on Windows/other platforms.
+    try:
+        is_root = os.geteuid() == 0
+    except AttributeError:
+        # Windows: always proceed (no equivalent check needed for common usage)
+        is_root = True
+
+    if not is_root:
         print(_error("✗ Ce scanner nécessite les droits root."))
         print(_warning("  → Relancez avec : sudo python -m scanner"))
         sys.exit(1)

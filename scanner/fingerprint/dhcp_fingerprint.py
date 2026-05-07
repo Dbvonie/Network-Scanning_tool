@@ -271,6 +271,7 @@ def start_passive_capture(
 def enrich_devices(
     devices: list[Device],
     captured: dict[str, FingerprintResult] | None = None,
+    timeout: int = _SNIFF_TIMEOUT,
 ) -> list[Device]:
     """
     Enrichit les Device avec les fingerprints DHCP capturés.
@@ -278,13 +279,14 @@ def enrich_devices(
     Args:
         devices:  Liste de Device à enrichir.
         captured: Résultats de start_passive_capture().
-                  Si None, tente une capture de 30s.
+                  Si None, lance une capture passive avec ``timeout`` secondes.
+        timeout:  Durée de la capture passive (ignoré si ``captured`` est fourni).
 
     Returns:
         La même liste enrichie.
     """
     if captured is None:
-        captured = start_passive_capture()
+        captured = start_passive_capture(timeout=timeout)
 
     for device in devices:
         result = captured.get(device.mac)

@@ -14,8 +14,11 @@ from ..models import Device, FingerprintResult, OSFamily, DeviceType
 
 _MAC_RULES: list[tuple[str, str, str, float]] = [
     # ── Apple ─────────────────────────────────────────────────
-    ("Apple", "macOS", "Laptop", 0.70),
-    ("Apple", "iOS", "Smartphone", 0.60),  # ambigu, TCP précisera
+    # Single rule with conservative confidence; _refine_apple() will
+    # distinguish iOS vs macOS using TCP data later in the pipeline.
+    # Confidence is 0.65 (not the original 0.70) to reflect that MAC vendor
+    # alone cannot differentiate iPhone from MacBook.
+    ("Apple", "macOS", "Laptop", 0.65),
     # ── Phones / Tablets ──────────────────────────────────────
     ("Samsung", "Android", "Smartphone", 0.75),
     ("Xiaomi", "Android", "Smartphone", 0.80),
@@ -23,7 +26,8 @@ _MAC_RULES: list[tuple[str, str, str, float]] = [
     ("Huawei", "Android", "Smartphone", 0.75),
     ("LG Electronics", "Android", "Smartphone", 0.72),
     ("Motorola", "Android", "Smartphone", 0.75),
-    ("Google", "Android", "Smartphone", 0.78),
+    # Google Pixel phones — specific OUIs registered to Google LLC
+    ("Google", "Android", "Smartphone", 0.72),
     # ── PC makers ─────────────────────────────────────────────
     ("Dell", "Windows", "Laptop", 0.65),
     ("Hewlett Packard", "Windows", "Laptop", 0.65),
@@ -51,7 +55,6 @@ _MAC_RULES: list[tuple[str, str, str, float]] = [
     ("Hewlett-Packard", "IoT", "Printer", 0.80),  # imprimantes HP
     # ── Smart devices ─────────────────────────────────────────
     ("Amazon", "IoT", "IoT Device", 0.85),  # Echo, FireTV
-    ("Google", "IoT", "IoT Device", 0.80),  # Chromecast, Nest
     ("Sonos", "IoT", "IoT Device", 0.88),
     ("Philips", "IoT", "IoT Device", 0.75),
 ]

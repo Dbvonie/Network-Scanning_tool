@@ -4,6 +4,7 @@
 
 from __future__ import annotations
 
+import errno
 import socket
 import ssl
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -126,11 +127,19 @@ def _scan_port(ip: str, port: int, timeout: float) -> Port:
                 banner=banner,
                 os_hint=_fingerprint_from_banner(banner, service) if banner else None,
             )
-        else:
+        elif result == errno.ECONNREFUSED:
             # Refus explicite = port fermé
             return Port(
                 number=port,
                 state=PortState.CLOSED,
+                protocol=PortProtocol.TCP,
+                service=service,
+            )
+        else:
+            # Toute autre erreur (ETIMEDOUT, ENETUNREACH, EHOSTUNREACH…) = filtré
+            return Port(
+                number=port,
+                state=PortState.FILTERED,
                 protocol=PortProtocol.TCP,
                 service=service,
             )

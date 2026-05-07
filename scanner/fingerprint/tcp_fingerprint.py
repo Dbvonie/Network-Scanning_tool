@@ -191,6 +191,12 @@ def _probe_tcp_syn(ip: str, port: int = 80) -> dict | None:
 
     tcp_layer = resp[TCP]
 
+    # Only SYN-ACK (flags 0x12) carries valid stack fingerprint data.
+    # RST and RST-ACK responses do not reflect the remote OS TCP stack.
+    SYN_ACK = 0x12
+    if (tcp_layer.flags & SYN_ACK) != SYN_ACK:
+        return None
+
     # Extrait les noms des options TCP
     options = []
     for opt in tcp_layer.options:
