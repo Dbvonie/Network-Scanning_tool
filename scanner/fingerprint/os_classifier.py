@@ -14,8 +14,10 @@ from ..models import Device, FingerprintResult, OSFamily, DeviceType
 
 _MAC_RULES: list[tuple[str, str, str, float]] = [
     # ── Apple ─────────────────────────────────────────────────
-    # A single Apple rule with moderate confidence; _refine_apple() will
+    # Single rule with conservative confidence; _refine_apple() will
     # distinguish iOS vs macOS using TCP data later in the pipeline.
+    # Confidence is 0.65 (not the original 0.70) to reflect that MAC vendor
+    # alone cannot differentiate iPhone from MacBook.
     ("Apple", "macOS", "Laptop", 0.65),
     # ── Phones / Tablets ──────────────────────────────────────
     ("Samsung", "Android", "Smartphone", 0.75),

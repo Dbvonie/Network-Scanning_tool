@@ -259,6 +259,23 @@ class TestMacRulesDeduplicated:
             f"Expected 1 Google rule, got {len(google_rules)}: {google_rules}"
         )
 
+    def test_non_apple_vendor_does_not_trigger_refine_apple(self):
+        """classify() with a non-Apple vendor must NOT invoke _refine_apple logic."""
+        from scanner.fingerprint.os_classifier import classify
+
+        device = Device(ip="10.0.0.2", mac="00:1A:8A:AA:BB:CC")
+        device.mac_vendor = "Samsung"
+        device.fingerprint = FingerprintResult(
+            os_family=OSFamily.ANDROID,
+            confidence=0.75,
+            tcp_window=65535,
+            tcp_options=["MSS", "NOP", "WScale", "NOP", "NOP", "Timestamp"],
+            sources={"tcp": "test"},
+        )
+        result = classify(device)
+        # Must remain Android — not promoted to macOS by _refine_apple
+        assert result.os_family == OSFamily.ANDROID
+
     def test_apple_vendor_triggers_refine_apple(self):
         """classify() with an Apple vendor + TCP data must use _refine_apple."""
         from scanner.fingerprint.os_classifier import classify
