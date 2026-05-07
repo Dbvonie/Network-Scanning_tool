@@ -1,0 +1,752 @@
+[36m🚀 Starting Network Security Scanner (with sudo for raw sockets)...[0m
+
+ NETWORK SCANNER — Cybersecurity Scan Pipeline 
+
+[*] Étape 1 : Détection du réseau local ...
+    ✓ Réseau détecté : 192.168.100.0/24
+
+[*] Étape 2 : Scan ARP sur 192.168.100.0/24 ...
+[*] Scan ARP sur 192.168.100.0/24 ...
+  [+] 192.168.100.1    | E0:AE:A2:E9:14:27 | unknown
+  [+] 192.168.100.9    | 00:20:6B:B2:91:0B | unknown
+  [+] 192.168.100.6    | 6A:FC:BB:8B:A3:A9 | unknown
+  [+] 192.168.100.8    | 64:6E:E0:1D:DD:14 | unknown
+  [+] 192.168.100.10   | 1C:4D:70:0A:25:F8 | unknown
+  [+] 192.168.100.7    | E4:B3:18:59:C2:2A | unknown
+  [+] 192.168.100.13   | BC:24:11:EF:CD:BA | unknown
+  [+] 192.168.100.14   | 14:75:5B:A1:B5:6C | unknown
+  [+] 192.168.100.15   | 0C:7A:15:B6:D6:27 | unknown
+  [+] 192.168.100.37   | EC:B1:D7:8C:79:8E | unknown
+  [+] 192.168.100.43   | F8:B1:56:C3:AE:9D | unknown
+  [+] 192.168.100.48   | BC:24:11:EF:CD:BA | unknown
+  [+] 192.168.100.50   | BC:24:11:C8:69:5A | unknown
+  [+] 192.168.100.94   | 10:65:30:19:FF:4E | unknown
+  [+] 192.168.100.101  | 18:66:DA:64:0B:4A | unknown
+  [+] 192.168.100.100  | EC:B1:D7:84:97:E4 | unknown
+  [+] 192.168.100.219  | BC:24:11:45:A0:2A | unknown
+  [+] 192.168.100.221  | A8:B1:3B:13:08:8F | unknown
+  [+] 192.168.100.35   | E8:D0:FC:D7:8D:83 | unknown
+  [+] 192.168.100.4    | 6E:E3:6F:79:30:DE | unknown
+  [+] 192.168.100.5    | B2:99:B2:DA:0E:52 | unknown
+  [+] 192.168.100.23   | 5A:C8:40:00:F5:A1 | unknown
+  [+] 192.168.100.18   | B6:E0:BA:6F:4B:49 | unknown
+  [+] 192.168.100.81   | 00:41:0E:BD:7E:41 | unknown
+  [+] 192.168.100.26   | 10:5F:AD:85:A6:74 | unknown
+  [+] 192.168.100.29   | 50:76:AF:BD:52:B3 | unknown
+  [+] 192.168.100.28   | E2:26:9C:5E:E5:F4 | unknown
+  [+] 192.168.100.99   | 78:2B:46:91:89:08 | unknown
+  [+] 192.168.100.115  | E4:B3:18:3F:15:83 | unknown
+  [+] 192.168.100.118  | 7A:4B:8D:1F:65:34 | unknown
+  [+] 192.168.100.120  | 3C:E9:F7:63:4D:EF | unknown
+  [+] 192.168.100.112  | 8C:C6:81:69:15:4F | unknown
+  [+] 192.168.100.126  | 9E:22:12:F2:81:33 | unknown
+  [+] 192.168.100.125  | 80:E4:BA:B3:A5:33 | unknown
+  [+] 192.168.100.123  | 24:B2:B9:8D:17:B7 | unknown
+  [+] 192.168.100.132  | 74:70:FD:70:CF:7E | unknown
+  [+] 192.168.100.139  | 00:21:6A:E8:E1:08 | unknown
+  [+] 192.168.100.135  | F0:57:A6:BA:47:76 | unknown
+  [+] 192.168.100.154  | E4:A4:71:4E:A6:47 | unknown
+  [+] 192.168.100.133  | 4C:BB:58:FA:C3:67 | unknown
+  [+] 192.168.100.171  | 60:DD:8E:2A:3B:C2 | unknown
+  [+] 192.168.100.185  | 28:E3:47:A8:4D:23 | unknown
+  [+] 192.168.100.202  | F6:26:40:D2:AD:76 | unknown
+  [+] 192.168.100.197  | DA:5B:73:3F:63:1C | unknown
+  [+] 192.168.100.228  | E4:A4:71:DB:DC:7E | unknown
+  [+] 192.168.100.237  | D0:C6:37:6F:C4:08 | unknown
+  [+] 192.168.100.234  | 08:D2:3E:81:AD:BC | unknown
+  [+] 192.168.100.203  | 84:A6:C8:E1:4B:96 | unknown
+  [+] 192.168.100.248  | 28:16:AD:6A:F5:8B | unknown
+  [+] 192.168.100.34   | C0:B8:83:75:4A:54 | unknown
+  [+] 192.168.100.201  | 78:AF:08:F8:51:15 | unknown
+  [+] 192.168.100.31   | F0:B6:1E:9E:04:1C | unknown
+  [+] 192.168.100.42   | 82:F1:67:F7:C0:04 | unknown
+  [+] 192.168.100.12   | FE:AB:22:5C:D1:A5 | unknown
+  [+] 192.168.100.24   | 0A:13:D0:30:0F:14 | unknown
+  [+] 192.168.100.21   | 6E:F7:2B:15:26:91 | unknown
+  [+] 192.168.100.107  | CE:E6:2F:87:7F:F9 | unknown
+  [+] 192.168.100.227  | F8:34:41:E8:14:B2 | unknown
+  [+] 192.168.100.136  | F4:96:34:1E:B9:AA | unknown
+  [+] 192.168.100.157  | 7E:34:B3:49:7D:11 | unknown
+  [+] 192.168.100.223  | 48:E7:DA:C3:5A:ED | unknown
+  [+] 192.168.100.134  | FA:05:41:62:49:A0 | unknown
+  [+] 192.168.100.64   | 8C:E9:EE:D5:3B:17 | unknown
+  [+] 192.168.100.226  | A0:51:0B:7D:09:60 | unknown
+  [+] 192.168.100.172  | 1A:F5:68:74:9E:E7 | unknown
+  [+] 192.168.100.163  | C2:29:CA:E4:32:93 | unknown
+  [+] 192.168.100.114  | 7E:C0:78:37:90:C4 | unknown
+  [+] 192.168.100.122  | 24:41:8C:FD:2B:22 | unknown
+  [+] 192.168.100.149  | EE:B0:D5:17:B6:BE | unknown
+  [+] 192.168.100.162  | 70:DD:A8:A4:9E:44 | unknown
+  [+] 192.168.100.158  | EE:3A:A3:39:B5:72 | unknown
+  [+] 192.168.100.214  | BA:CF:A8:B2:93:3A | unknown
+  [+] 192.168.100.193  | 0E:0D:41:5A:30:38 | unknown
+  [+] 192.168.100.236  | 36:3E:B1:6E:7E:BF | unknown
+  [+] 192.168.100.108  | 36:BD:C1:B6:0D:D2 | unknown
+  [+] 192.168.100.210  | 66:29:77:B0:38:C9 | unknown
+  [+] 192.168.100.220  | 96:8B:4E:F2:0D:05 | unknown
+  [+] 192.168.100.148  | 3A:A5:D4:02:D3:72 | unknown
+  [+] 192.168.100.111  | A2:A8:E3:4D:4B:8B | unknown
+  [+] 192.168.100.138  | 96:6D:A4:FE:BF:96 | unknown
+  [+] 192.168.100.17   | 9A:38:A6:07:96:CA | unknown
+  [+] 192.168.100.11   | 26:ED:EC:6F:07:19 | unknown
+[*] 82 hôte(s) découvert(s) sur 192.168.100.0/24
+    ✓ 82 hôte(s) découvert(s)
+
+[*] Étape 3 : MAC OUI lookup ...
+
+[*] MAC OUI lookup sur 82 device(s) ...
+
+  [+] 192.168.100.1    | E0:AE:A2:E9:14:27 | Unknown
+  [+] 192.168.100.9    | 00:20:6B:B2:91:0B | ZyXEL
+  [+] 192.168.100.6    | 6A:FC:BB:8B:A3:A9 | Unknown
+  [+] 192.168.100.8    | 64:6E:E0:1D:DD:14 | Unknown
+  [+] 192.168.100.10   | 1C:4D:70:0A:25:F8 | Unknown
+  [+] 192.168.100.7    | E4:B3:18:59:C2:2A | Unknown
+  [+] 192.168.100.13   | BC:24:11:EF:CD:BA | Unknown
+  [+] 192.168.100.14   | 14:75:5B:A1:B5:6C | Unknown
+  [+] 192.168.100.15   | 0C:7A:15:B6:D6:27 | Unknown
+  [+] 192.168.100.37   | EC:B1:D7:8C:79:8E | Unknown
+  [+] 192.168.100.43   | F8:B1:56:C3:AE:9D | Unknown
+  [+] 192.168.100.48   | BC:24:11:EF:CD:BA | Unknown
+  [+] 192.168.100.50   | BC:24:11:C8:69:5A | Unknown
+  [+] 192.168.100.94   | 10:65:30:19:FF:4E | Unknown
+  [+] 192.168.100.101  | 18:66:DA:64:0B:4A | Unknown
+  [+] 192.168.100.100  | EC:B1:D7:84:97:E4 | Unknown
+  [+] 192.168.100.219  | BC:24:11:45:A0:2A | Unknown
+  [+] 192.168.100.221  | A8:B1:3B:13:08:8F | Unknown
+  [+] 192.168.100.35   | E8:D0:FC:D7:8D:83 | Unknown
+  [+] 192.168.100.4    | 6E:E3:6F:79:30:DE | Unknown
+  [+] 192.168.100.5    | B2:99:B2:DA:0E:52 | Unknown
+  [+] 192.168.100.23   | 5A:C8:40:00:F5:A1 | Unknown
+  [+] 192.168.100.18   | B6:E0:BA:6F:4B:49 | Unknown
+  [+] 192.168.100.81   | 00:41:0E:BD:7E:41 | Unknown
+  [+] 192.168.100.26   | 10:5F:AD:85:A6:74 | Unknown
+  [+] 192.168.100.29   | 50:76:AF:BD:52:B3 | Unknown
+  [+] 192.168.100.28   | E2:26:9C:5E:E5:F4 | Unknown
+  [+] 192.168.100.99   | 78:2B:46:91:89:08 | Unknown
+  [+] 192.168.100.115  | E4:B3:18:3F:15:83 | Unknown
+  [+] 192.168.100.118  | 7A:4B:8D:1F:65:34 | Unknown
+  [+] 192.168.100.120  | 3C:E9:F7:63:4D:EF | Unknown
+  [+] 192.168.100.112  | 8C:C6:81:69:15:4F | Unknown
+  [+] 192.168.100.126  | 9E:22:12:F2:81:33 | Unknown
+  [+] 192.168.100.125  | 80:E4:BA:B3:A5:33 | Unknown
+  [+] 192.168.100.123  | 24:B2:B9:8D:17:B7 | Unknown
+  [+] 192.168.100.132  | 74:70:FD:70:CF:7E | Unknown
+  [+] 192.168.100.139  | 00:21:6A:E8:E1:08 | Apple
+  [+] 192.168.100.135  | F0:57:A6:BA:47:76 | Unknown
+  [+] 192.168.100.154  | E4:A4:71:4E:A6:47 | Unknown
+  [+] 192.168.100.133  | 4C:BB:58:FA:C3:67 | Unknown
+  [+] 192.168.100.171  | 60:DD:8E:2A:3B:C2 | Unknown
+  [+] 192.168.100.185  | 28:E3:47:A8:4D:23 | Unknown
+  [+] 192.168.100.202  | F6:26:40:D2:AD:76 | Unknown
+  [+] 192.168.100.197  | DA:5B:73:3F:63:1C | Unknown
+  [+] 192.168.100.228  | E4:A4:71:DB:DC:7E | Unknown
+  [+] 192.168.100.237  | D0:C6:37:6F:C4:08 | Unknown
+  [+] 192.168.100.234  | 08:D2:3E:81:AD:BC | Unknown
+  [+] 192.168.100.203  | 84:A6:C8:E1:4B:96 | Unknown
+  [+] 192.168.100.248  | 28:16:AD:6A:F5:8B | Unknown
+  [+] 192.168.100.34   | C0:B8:83:75:4A:54 | Unknown
+  [+] 192.168.100.201  | 78:AF:08:F8:51:15 | Unknown
+  [+] 192.168.100.31   | F0:B6:1E:9E:04:1C | Unknown
+  [+] 192.168.100.42   | 82:F1:67:F7:C0:04 | Unknown
+  [+] 192.168.100.12   | FE:AB:22:5C:D1:A5 | Unknown
+  [+] 192.168.100.24   | 0A:13:D0:30:0F:14 | Unknown
+  [+] 192.168.100.21   | 6E:F7:2B:15:26:91 | Unknown
+  [+] 192.168.100.107  | CE:E6:2F:87:7F:F9 | Unknown
+  [+] 192.168.100.227  | F8:34:41:E8:14:B2 | Unknown
+  [+] 192.168.100.136  | F4:96:34:1E:B9:AA | Unknown
+  [+] 192.168.100.157  | 7E:34:B3:49:7D:11 | Unknown
+  [+] 192.168.100.223  | 48:E7:DA:C3:5A:ED | Unknown
+  [+] 192.168.100.134  | FA:05:41:62:49:A0 | Unknown
+  [+] 192.168.100.64   | 8C:E9:EE:D5:3B:17 | Unknown
+  [+] 192.168.100.226  | A0:51:0B:7D:09:60 | Unknown
+  [+] 192.168.100.172  | 1A:F5:68:74:9E:E7 | Unknown
+  [+] 192.168.100.163  | C2:29:CA:E4:32:93 | Unknown
+  [+] 192.168.100.114  | 7E:C0:78:37:90:C4 | Unknown
+  [+] 192.168.100.122  | 24:41:8C:FD:2B:22 | Unknown
+  [+] 192.168.100.149  | EE:B0:D5:17:B6:BE | Unknown
+  [+] 192.168.100.162  | 70:DD:A8:A4:9E:44 | Unknown
+  [+] 192.168.100.158  | EE:3A:A3:39:B5:72 | Unknown
+  [+] 192.168.100.214  | BA:CF:A8:B2:93:3A | Unknown
+  [+] 192.168.100.193  | 0E:0D:41:5A:30:38 | Unknown
+  [+] 192.168.100.236  | 36:3E:B1:6E:7E:BF | Unknown
+  [+] 192.168.100.108  | 36:BD:C1:B6:0D:D2 | Unknown
+  [+] 192.168.100.210  | 66:29:77:B0:38:C9 | Unknown
+  [+] 192.168.100.220  | 96:8B:4E:F2:0D:05 | Unknown
+  [+] 192.168.100.148  | 3A:A5:D4:02:D3:72 | Unknown
+  [+] 192.168.100.111  | A2:A8:E3:4D:4B:8B | Unknown
+  [+] 192.168.100.138  | 96:6D:A4:FE:BF:96 | Unknown
+  [+] 192.168.100.17   | 9A:38:A6:07:96:CA | Unknown
+  [+] 192.168.100.11   | 26:ED:EC:6F:07:19 | Unknown
+    ✓ 82 hôte(s) enrichi(s) avec vendor
+
+[*] Étape 4 : Scan des ports ...
+
+[*] Scan des ports sur 82 hôte(s) ...
+
+  [*] Scan ports sur 192.168.100.1 (55 ports) ...
+  [+] 192.168.100.1 — 2 port(s) ouvert(s) : [53, 80]
+  [*] Scan ports sur 192.168.100.9 (55 ports) ...
+  [-] 192.168.100.9 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.6 (55 ports) ...
+  [-] 192.168.100.6 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.8 (55 ports) ...
+  [+] 192.168.100.8 — 2 port(s) ouvert(s) : [3306, 8080]
+  [*] Scan ports sur 192.168.100.10 (55 ports) ...
+  [-] 192.168.100.10 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.7 (55 ports) ...
+  [-] 192.168.100.7 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.13 (55 ports) ...
+  [+] 192.168.100.13 — 7 port(s) ouvert(s) : [22, 80, 111, 443, 3000, 6443, 10250]
+  [*] Scan ports sur 192.168.100.14 (55 ports) ...
+  [+] 192.168.100.14 — 5 port(s) ouvert(s) : [5000, 5432, 6379, 8080, 8443]
+  [*] Scan ports sur 192.168.100.15 (55 ports) ...
+  [+] 192.168.100.15 — 4 port(s) ouvert(s) : [80, 443, 3306, 8000]
+  [*] Scan ports sur 192.168.100.37 (55 ports) ...
+  [+] 192.168.100.37 — 3 port(s) ouvert(s) : [22, 80, 443]
+  [*] Scan ports sur 192.168.100.43 (55 ports) ...
+  [-] 192.168.100.43 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.48 (55 ports) ...
+  [+] 192.168.100.48 — 7 port(s) ouvert(s) : [22, 80, 111, 443, 3000, 6443, 10250]
+  [*] Scan ports sur 192.168.100.50 (55 ports) ...
+  [+] 192.168.100.50 — 8 port(s) ouvert(s) : [22, 80, 111, 443, 5432, 8000, 8443, 10250]
+  [*] Scan ports sur 192.168.100.94 (55 ports) ...
+  [-] 192.168.100.94 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.101 (55 ports) ...
+  [+] 192.168.100.101 — 3 port(s) ouvert(s) : [22, 111, 3128]
+  [*] Scan ports sur 192.168.100.100 (55 ports) ...
+  [+] 192.168.100.100 — 3 port(s) ouvert(s) : [22, 111, 3128]
+  [*] Scan ports sur 192.168.100.219 (55 ports) ...
+  [+] 192.168.100.219 — 3 port(s) ouvert(s) : [22, 80, 5432]
+  [*] Scan ports sur 192.168.100.221 (55 ports) ...
+  [+] 192.168.100.221 — 3 port(s) ouvert(s) : [135, 139, 445]
+  [*] Scan ports sur 192.168.100.35 (55 ports) ...
+  [-] 192.168.100.35 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.4 (55 ports) ...
+  [+] 192.168.100.4 — 1 port(s) ouvert(s) : [53]
+  [*] Scan ports sur 192.168.100.5 (55 ports) ...
+  [-] 192.168.100.5 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.23 (55 ports) ...
+  [-] 192.168.100.23 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.18 (55 ports) ...
+  [-] 192.168.100.18 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.81 (55 ports) ...
+  [-] 192.168.100.81 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.26 (55 ports) ...
+  [-] 192.168.100.26 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.29 (55 ports) ...
+  [+] 192.168.100.29 — 2 port(s) ouvert(s) : [135, 5432]
+  [*] Scan ports sur 192.168.100.28 (55 ports) ...
+  [+] 192.168.100.28 — 1 port(s) ouvert(s) : [3306]
+  [*] Scan ports sur 192.168.100.99 (55 ports) ...
+  [+] 192.168.100.99 — 4 port(s) ouvert(s) : [5432, 5672, 6379, 27017]
+  [*] Scan ports sur 192.168.100.115 (55 ports) ...
+  [-] 192.168.100.115 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.118 (55 ports) ...
+  [+] 192.168.100.118 — 1 port(s) ouvert(s) : [6379]
+  [*] Scan ports sur 192.168.100.120 (55 ports) ...
+  [-] 192.168.100.120 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.112 (55 ports) ...
+  [+] 192.168.100.112 — 4 port(s) ouvert(s) : [135, 139, 445, 5432]
+  [*] Scan ports sur 192.168.100.126 (55 ports) ...
+  [-] 192.168.100.126 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.125 (55 ports) ...
+  [+] 192.168.100.125 — 5 port(s) ouvert(s) : [135, 139, 445, 3306, 8080]
+  [*] Scan ports sur 192.168.100.123 (55 ports) ...
+  [-] 192.168.100.123 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.132 (55 ports) ...
+  [+] 192.168.100.132 — 3 port(s) ouvert(s) : [135, 3000, 3306]
+  [*] Scan ports sur 192.168.100.139 (55 ports) ...
+  [+] 192.168.100.139 — 3 port(s) ouvert(s) : [135, 139, 445]
+  [*] Scan ports sur 192.168.100.135 (55 ports) ...
+  [+] 192.168.100.135 — 1 port(s) ouvert(s) : [8000]
+  [*] Scan ports sur 192.168.100.154 (55 ports) ...
+  [+] 192.168.100.154 — 4 port(s) ouvert(s) : [135, 139, 445, 5432]
+  [*] Scan ports sur 192.168.100.133 (55 ports) ...
+  [-] 192.168.100.133 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.171 (55 ports) ...
+  [+] 192.168.100.171 — 8 port(s) ouvert(s) : [3000, 5000, 5672, 6379, 8000, 8080, 9200, 27017]
+  [*] Scan ports sur 192.168.100.185 (55 ports) ...
+  [-] 192.168.100.185 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.202 (55 ports) ...
+  [-] 192.168.100.202 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.197 (55 ports) ...
+  [-] 192.168.100.197 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.228 (55 ports) ...
+  [+] 192.168.100.228 — 4 port(s) ouvert(s) : [135, 139, 445, 5900]
+  [*] Scan ports sur 192.168.100.237 (55 ports) ...
+  [-] 192.168.100.237 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.234 (55 ports) ...
+  [-] 192.168.100.234 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.203 (55 ports) ...
+  [+] 192.168.100.203 — 1 port(s) ouvert(s) : [3306]
+  [*] Scan ports sur 192.168.100.248 (55 ports) ...
+  [+] 192.168.100.248 — 1 port(s) ouvert(s) : [3306]
+  [*] Scan ports sur 192.168.100.34 (55 ports) ...
+  [-] 192.168.100.34 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.201 (55 ports) ...
+  [-] 192.168.100.201 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.31 (55 ports) ...
+  [-] 192.168.100.31 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.42 (55 ports) ...
+  [-] 192.168.100.42 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.12 (55 ports) ...
+  [-] 192.168.100.12 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.24 (55 ports) ...
+  [-] 192.168.100.24 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.21 (55 ports) ...
+  [-] 192.168.100.21 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.107 (55 ports) ...
+  [-] 192.168.100.107 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.227 (55 ports) ...
+  [+] 192.168.100.227 — 4 port(s) ouvert(s) : [80, 443, 3306, 8000]
+  [*] Scan ports sur 192.168.100.136 (55 ports) ...
+  [+] 192.168.100.136 — 1 port(s) ouvert(s) : [135]
+  [*] Scan ports sur 192.168.100.157 (55 ports) ...
+  [-] 192.168.100.157 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.223 (55 ports) ...
+  [-] 192.168.100.223 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.134 (55 ports) ...
+  [-] 192.168.100.134 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.64 (55 ports) ...
+  [+] 192.168.100.64 — 2 port(s) ouvert(s) : [5432, 5672]
+  [*] Scan ports sur 192.168.100.226 (55 ports) ...
+  [-] 192.168.100.226 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.172 (55 ports) ...
+  [-] 192.168.100.172 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.163 (55 ports) ...
+  [-] 192.168.100.163 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.114 (55 ports) ...
+  [-] 192.168.100.114 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.122 (55 ports) ...
+  [+] 192.168.100.122 — 1 port(s) ouvert(s) : [135]
+  [*] Scan ports sur 192.168.100.149 (55 ports) ...
+  [-] 192.168.100.149 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.162 (55 ports) ...
+  [-] 192.168.100.162 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.158 (55 ports) ...
+  [-] 192.168.100.158 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.214 (55 ports) ...
+  [-] 192.168.100.214 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.193 (55 ports) ...
+  [-] 192.168.100.193 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.236 (55 ports) ...
+  [-] 192.168.100.236 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.108 (55 ports) ...
+  [-] 192.168.100.108 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.210 (55 ports) ...
+  [-] 192.168.100.210 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.220 (55 ports) ...
+  [-] 192.168.100.220 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.148 (55 ports) ...
+  [-] 192.168.100.148 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.111 (55 ports) ...
+  [-] 192.168.100.111 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.138 (55 ports) ...
+  [-] 192.168.100.138 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.17 (55 ports) ...
+  [-] 192.168.100.17 — aucun port ouvert détecté
+  [*] Scan ports sur 192.168.100.11 (55 ports) ...
+  [-] 192.168.100.11 — aucun port ouvert détecté
+
+[*] Scan terminé — 101 port(s) ouvert(s) au total
+    ✓ Scan terminé : 101 port(s) ouvert(s) au total
+
+[*] Étape 5 : TCP fingerprinting ...
+
+[*] TCP fingerprinting sur 82 hôte(s) ...
+
+  [*] TCP fingerprint sur 192.168.100.1 ...
+  [-] 192.168.100.1 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.9 ...
+  [-] 192.168.100.9 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.6 ...
+  [-] 192.168.100.6 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.8 ...
+  [-] 192.168.100.8 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.10 ...
+  [-] 192.168.100.10 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.7 ...
+  [-] 192.168.100.7 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.13 ...
+  [-] 192.168.100.13 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.14 ...
+  [-] 192.168.100.14 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.15 ...
+  [-] 192.168.100.15 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.37 ...
+  [-] 192.168.100.37 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.43 ...
+  [-] 192.168.100.43 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.48 ...
+  [-] 192.168.100.48 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.50 ...
+  [-] 192.168.100.50 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.94 ...
+  [-] 192.168.100.94 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.101 ...
+  [-] 192.168.100.101 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.100 ...
+  [-] 192.168.100.100 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.219 ...
+  [-] 192.168.100.219 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.221 ...
+  [-] 192.168.100.221 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.35 ...
+  [-] 192.168.100.35 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.4 ...
+  [-] 192.168.100.4 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.5 ...
+  [-] 192.168.100.5 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.23 ...
+  [-] 192.168.100.23 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.18 ...
+  [-] 192.168.100.18 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.81 ...
+  [-] 192.168.100.81 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.26 ...
+  [-] 192.168.100.26 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.29 ...
+  [-] 192.168.100.29 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.28 ...
+  [-] 192.168.100.28 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.99 ...
+  [-] 192.168.100.99 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.115 ...
+  [-] 192.168.100.115 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.118 ...
+  [-] 192.168.100.118 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.120 ...
+  [-] 192.168.100.120 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.112 ...
+  [-] 192.168.100.112 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.126 ...
+  [-] 192.168.100.126 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.125 ...
+  [-] 192.168.100.125 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.123 ...
+  [-] 192.168.100.123 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.132 ...
+  [-] 192.168.100.132 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.139 ...
+  [-] 192.168.100.139 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.135 ...
+  [-] 192.168.100.135 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.154 ...
+  [-] 192.168.100.154 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.133 ...
+  [-] 192.168.100.133 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.171 ...
+  [-] 192.168.100.171 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.185 ...
+  [-] 192.168.100.185 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.202 ...
+  [-] 192.168.100.202 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.197 ...
+  [-] 192.168.100.197 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.228 ...
+  [-] 192.168.100.228 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.237 ...
+  [-] 192.168.100.237 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.234 ...
+  [-] 192.168.100.234 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.203 ...
+  [-] 192.168.100.203 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.248 ...
+  [-] 192.168.100.248 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.34 ...
+  [-] 192.168.100.34 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.201 ...
+  [-] 192.168.100.201 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.31 ...
+  [-] 192.168.100.31 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.42 ...
+  [-] 192.168.100.42 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.12 ...
+  [-] 192.168.100.12 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.24 ...
+  [-] 192.168.100.24 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.21 ...
+  [-] 192.168.100.21 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.107 ...
+  [-] 192.168.100.107 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.227 ...
+  [-] 192.168.100.227 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.136 ...
+  [-] 192.168.100.136 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.157 ...
+  [-] 192.168.100.157 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.223 ...
+  [-] 192.168.100.223 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.134 ...
+  [-] 192.168.100.134 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.64 ...
+  [-] 192.168.100.64 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.226 ...
+  [-] 192.168.100.226 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.172 ...
+  [-] 192.168.100.172 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.163 ...
+  [-] 192.168.100.163 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.114 ...
+  [-] 192.168.100.114 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.122 ...
+  [-] 192.168.100.122 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.149 ...
+  [-] 192.168.100.149 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.162 ...
+  [-] 192.168.100.162 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.158 ...
+  [-] 192.168.100.158 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.214 ...
+  [-] 192.168.100.214 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.193 ...
+  [-] 192.168.100.193 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.236 ...
+  [-] 192.168.100.236 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.108 ...
+  [-] 192.168.100.108 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.210 ...
+  [-] 192.168.100.210 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.220 ...
+  [-] 192.168.100.220 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.148 ...
+  [-] 192.168.100.148 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.111 ...
+  [-] 192.168.100.111 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.138 ...
+  [-] 192.168.100.138 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.17 ...
+  [-] 192.168.100.17 — aucune réponse TCP/ICMP
+  [*] TCP fingerprint sur 192.168.100.11 ...
+  [-] 192.168.100.11 — aucune réponse TCP/ICMP
+    ✓ TCP fingerprinting terminé
+
+[*] Étape 6 : DHCP fingerprinting (désactivé — utilisez --dhcp pour activer)
+
+[*] Étape 7 : HTTP banner grabbing ...
+
+[*] HTTP banner grabbing sur 82 hôte(s) ...
+
+  [*] HTTP banner sur 192.168.100.1 (ports: [80]) ...
+  [*] HTTP banner sur 192.168.100.8 (ports: [8080]) ...
+  [*] HTTP banner sur 192.168.100.13 (ports: [80, 443]) ...  [*] HTTP banner sur 192.168.100.15 (ports: [80, 8000, 443]) ...
+
+  [*] HTTP banner sur 192.168.100.14 (ports: [8080, 8443]) ...  [*] HTTP banner sur 192.168.100.37 (ports: [80, 443]) ...  [*] HTTP banner sur 192.168.100.50 (ports: [80, 8000, 443, 8443]) ...
+  [*] HTTP banner sur 192.168.100.48 (ports: [80, 443]) ...  [*] HTTP banner sur 192.168.100.219 (ports: [80]) ...
+
+
+
+  [*] HTTP banner sur 192.168.100.125 (ports: [8080]) ...
+  [+] 192.168.100.219:80 — Ubuntu (Apache 2.4) (88%)
+  [-] 192.168.100.1 — aucun indice HTTP exploitable
+  [+] 192.168.100.8:8080 — Linux (Apache) (65%)
+  [*] HTTP banner sur 192.168.100.135 (ports: [8000]) ...
+  [*] HTTP banner sur 192.168.100.171 (ports: [8080, 8000]) ...
+  [*] HTTP banner sur 192.168.100.227 (ports: [80, 8000, 443]) ...
+  [+] 192.168.100.14:8080 — Linux (Apache) (65%)
+  [+] 192.168.100.15:80 — Linux (Apache) (65%)  [+] 192.168.100.125:8080 — Debian (Apache 2.4) (88%)
+
+  [-] 192.168.100.13 — aucun indice HTTP exploitable
+  [-] 192.168.100.48 — aucun indice HTTP exploitable
+  [-] 192.168.100.37 — aucun indice HTTP exploitable
+  [-] 192.168.100.135 — aucun indice HTTP exploitable
+  [+] 192.168.100.171:8080 — Linux (Apache) (65%)
+  [-] 192.168.100.50 — aucun indice HTTP exploitable
+  [+] 192.168.100.227:80 — Linux (Apache) (65%)
+    ✓ HTTP banner grabbing terminé
+
+[*] Étape 8 : Classification OS finale ...
+
+[*] Classification OS finale sur 82 hôte(s) ...
+
+  [✓] 192.168.100.1                  | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] ZyXEL (192.168.100.9)          | Network Device   | Router           | 90% | sources: ['tcp', 'mac_rule', 'mac']
+  [✓] 192.168.100.6                  | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.8                  | Linux            | Server           | 70% | sources: ['tcp', 'http_server']
+  [✓] 192.168.100.10                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.7                  | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.13                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.14                 | Linux            | Server           | 70% | sources: ['tcp', 'http_server']
+  [✓] 192.168.100.15                 | Linux            | Server           | 75% | sources: ['tcp', 'http_server', 'http_powered']
+  [✓] 192.168.100.37                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.43                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.48                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.50                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.94                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.101                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.100                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.219                | Linux            | Server           | 93% | sources: ['tcp', 'http_server']
+  [✓] 192.168.100.221                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.35                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.4                  | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.5                  | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.23                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.18                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.81                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.26                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.29                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.28                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.99                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.115                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.118                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.120                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.112                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.126                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.125                | Linux            | Server           | 98% | sources: ['tcp', 'http_server', 'http_powered']
+  [✓] 192.168.100.123                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.132                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] Apple (192.168.100.139)        | macOS            | Laptop           | 75% | sources: ['tcp', 'mac_rule', 'mac']
+  [✓] 192.168.100.135                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.154                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.133                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.171                | Linux            | Server           | 70% | sources: ['tcp', 'http_server']
+  [✓] 192.168.100.185                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.202                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.197                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.228                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.237                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.234                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.203                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.248                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.34                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.201                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.31                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.42                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.12                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.24                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.21                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.107                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.227                | Linux            | Server           | 75% | sources: ['tcp', 'http_server', 'http_powered']
+  [✓] 192.168.100.136                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.157                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.223                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.134                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.64                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.226                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.172                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.163                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.114                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.122                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.149                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.162                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.158                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.214                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.193                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.236                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.108                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.210                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.220                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.148                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.111                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.138                | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.17                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+  [✓] 192.168.100.11                 | Unknown          | Unknown          | 0% | sources: ['tcp']
+    ✓ Classification OS terminée
+
+[*] Étape 9 : Sauvegarde en base de données ...
+[+] Base de données initialisée : /mnt/c/Users/youssef/Documents/home/Github/ista/PFE/scanner/data/scans.db
+[+] Scan sauvegardé : 3c959200-aa04-4abc-8d74-31b7231765a6 (82 hôte(s))
+    ✓ Résultat sauvegardé — Scan ID: 3c959200-aa04-4abc-8d74-31b7231765a6
+
+ RÉSUMÉ DU SCAN 
+
+  Réseau         : 192.168.100.0/24
+  Timestamp      : 2026-05-05 14:54:23
+  Hôtes découverts: 82
+
+  IP       | MAC        | Hostname     | OS      | Ports
+  ────────────────────────────────────────────────────────────────────────────────────────────────────
+  192.168.100.1 | E0:AE:A2:E9:14:27  | N/A                  | Unknown (0%)    | 53, 80
+  192.168.100.10 | 1C:4D:70:0A:25:F8  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.100 | EC:B1:D7:84:97:E4  | N/A                  | Unknown (0%)    | 22, 111, 3128
+  192.168.100.101 | 18:66:DA:64:0B:4A  | N/A                  | Unknown (0%)    | 22, 111, 3128
+  192.168.100.107 | CE:E6:2F:87:7F:F9  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.108 | 36:BD:C1:B6:0D:D2  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.11 | 26:ED:EC:6F:07:19  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.111 | A2:A8:E3:4D:4B:8B  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.112 | 8C:C6:81:69:15:4F  | N/A                  | Unknown (0%)    | 135, 139, 445, 5432
+  192.168.100.114 | 7E:C0:78:37:90:C4  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.115 | E4:B3:18:3F:15:83  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.118 | 7A:4B:8D:1F:65:34  | N/A                  | Unknown (0%)    | 6379
+  192.168.100.12 | FE:AB:22:5C:D1:A5  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.120 | 3C:E9:F7:63:4D:EF  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.122 | 24:41:8C:FD:2B:22  | N/A                  | Unknown (0%)    | 135
+  192.168.100.123 | 24:B2:B9:8D:17:B7  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.125 | 80:E4:BA:B3:A5:33  | N/A                  | Linux (98%) | 135, 139, 445, 3306, 8080
+  192.168.100.126 | 9E:22:12:F2:81:33  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.13 | BC:24:11:EF:CD:BA  | N/A                  | Unknown (0%)    | 22, 80, 111, 443, 3000, +2
+  192.168.100.132 | 74:70:FD:70:CF:7E  | N/A                  | Unknown (0%)    | 135, 3000, 3306
+  192.168.100.133 | 4C:BB:58:FA:C3:67  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.134 | FA:05:41:62:49:A0  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.135 | F0:57:A6:BA:47:76  | N/A                  | Unknown (0%)    | 8000
+  192.168.100.136 | F4:96:34:1E:B9:AA  | N/A                  | Unknown (0%)    | 135
+  192.168.100.138 | 96:6D:A4:FE:BF:96  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.139 | 00:21:6A:E8:E1:08  | N/A                  | macOS (75%) | 135, 139, 445
+  192.168.100.14 | 14:75:5B:A1:B5:6C  | N/A                  | Linux (70%) | 5000, 5432, 6379, 8080, 8443
+  192.168.100.148 | 3A:A5:D4:02:D3:72  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.149 | EE:B0:D5:17:B6:BE  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.15 | 0C:7A:15:B6:D6:27  | N/A                  | Linux (75%) | 80, 443, 3306, 8000
+  192.168.100.154 | E4:A4:71:4E:A6:47  | N/A                  | Unknown (0%)    | 135, 139, 445, 5432
+  192.168.100.157 | 7E:34:B3:49:7D:11  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.158 | EE:3A:A3:39:B5:72  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.162 | 70:DD:A8:A4:9E:44  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.163 | C2:29:CA:E4:32:93  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.17 | 9A:38:A6:07:96:CA  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.171 | 60:DD:8E:2A:3B:C2  | N/A                  | Linux (70%) | 3000, 5000, 5672, 6379, 8000, +3
+  192.168.100.172 | 1A:F5:68:74:9E:E7  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.18 | B6:E0:BA:6F:4B:49  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.185 | 28:E3:47:A8:4D:23  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.193 | 0E:0D:41:5A:30:38  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.197 | DA:5B:73:3F:63:1C  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.201 | 78:AF:08:F8:51:15  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.202 | F6:26:40:D2:AD:76  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.203 | 84:A6:C8:E1:4B:96  | N/A                  | Unknown (0%)    | 3306
+  192.168.100.21 | 6E:F7:2B:15:26:91  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.210 | 66:29:77:B0:38:C9  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.214 | BA:CF:A8:B2:93:3A  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.219 | BC:24:11:45:A0:2A  | N/A                  | Linux (93%) | 22, 80, 5432
+  192.168.100.220 | 96:8B:4E:F2:0D:05  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.221 | A8:B1:3B:13:08:8F  | N/A                  | Unknown (0%)    | 135, 139, 445
+  192.168.100.223 | 48:E7:DA:C3:5A:ED  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.226 | A0:51:0B:7D:09:60  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.227 | F8:34:41:E8:14:B2  | N/A                  | Linux (75%) | 80, 443, 3306, 8000
+  192.168.100.228 | E4:A4:71:DB:DC:7E  | N/A                  | Unknown (0%)    | 135, 139, 445, 5900
+  192.168.100.23 | 5A:C8:40:00:F5:A1  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.234 | 08:D2:3E:81:AD:BC  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.236 | 36:3E:B1:6E:7E:BF  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.237 | D0:C6:37:6F:C4:08  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.24 | 0A:13:D0:30:0F:14  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.248 | 28:16:AD:6A:F5:8B  | N/A                  | Unknown (0%)    | 3306
+  192.168.100.26 | 10:5F:AD:85:A6:74  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.28 | E2:26:9C:5E:E5:F4  | N/A                  | Unknown (0%)    | 3306
+  192.168.100.29 | 50:76:AF:BD:52:B3  | N/A                  | Unknown (0%)    | 135, 5432
+  192.168.100.31 | F0:B6:1E:9E:04:1C  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.34 | C0:B8:83:75:4A:54  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.35 | E8:D0:FC:D7:8D:83  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.37 | EC:B1:D7:8C:79:8E  | N/A                  | Unknown (0%)    | 22, 80, 443
+  192.168.100.4 | 6E:E3:6F:79:30:DE  | N/A                  | Unknown (0%)    | 53
+  192.168.100.42 | 82:F1:67:F7:C0:04  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.43 | F8:B1:56:C3:AE:9D  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.48 | BC:24:11:EF:CD:BA  | N/A                  | Unknown (0%)    | 22, 80, 111, 443, 3000, +2
+  192.168.100.5 | B2:99:B2:DA:0E:52  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.50 | BC:24:11:C8:69:5A  | N/A                  | Unknown (0%)    | 22, 80, 111, 443, 5432, +3
+  192.168.100.6 | 6A:FC:BB:8B:A3:A9  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.64 | 8C:E9:EE:D5:3B:17  | N/A                  | Unknown (0%)    | 5432, 5672
+  192.168.100.7 | E4:B3:18:59:C2:2A  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.8 | 64:6E:E0:1D:DD:14  | N/A                  | Linux (70%) | 3306, 8080
+  192.168.100.81 | 00:41:0E:BD:7E:41  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.9 | 00:20:6B:B2:91:0B  | N/A                  | Network Device (90%) | (none)
+  192.168.100.94 | 10:65:30:19:FF:4E  | N/A                  | Unknown (0%)    | (none)
+  192.168.100.99 | 78:2B:46:91:89:08  | N/A                  | Unknown (0%)    | 5432, 5672, 6379, 27017
+
+  Statistiques :
+    • Hôtes avec OS identifié  : 9 / 82
+    • Ports ouverts au total   : 101
+    • Services détectés        : 23
+    • Services courants        : MSRPC (10), HTTP (8), MySQL (8), PostgreSQL (8), SSH (7)
+    • OS détectés              : Unknown (73), Linux (7), Network Device (1), macOS (1)
+
+✓ Scan terminé avec succès.
+
+⏱ Scan complété en 1061.9s

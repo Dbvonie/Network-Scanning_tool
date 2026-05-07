@@ -1,53 +1,84 @@
-# *Network-Scanning_tool*
-## Network Device Scanner with Visual Dashboard
-Build your own lightweight network scanner (not just using Nmap directly), including device fingerprinting with MAC vendor lookup and a visual dashboard.
+# Network Security Scanner & Visual Dashboard
 
-### Core Features
-- Discover hosts on local network.
-- Scan common ports and basic service info.
-- Identify manufacturer via MAC OUI lookup.
-- Show results in a dashboard.
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Framework](https://img.shields.io/badge/Framework-Flask-lightgrey.svg)](https://flask.palletsprojects.com/)
 
-### Suggested Stack
+A professional-grade, lightweight network scanner for cybersecurity auditing. This tool combines rapid host discovery with advanced device fingerprinting and a modern web-based dashboard for real-time visualization.
 
-- Flask (web interface)
-- Optional Raspberry Pi deployment
-- login page with bcrypt
-- or GitHub OAuth
+## 🚀 Key Features
 
-### Cybersecurity Focus
-- Secure the dashboard (authentication, input validation, rate limiting).
-- Secure scanner execution and stored scan data.
+- **Advanced Host Discovery**: Fast ARP-based scanning to discover all active devices on the local network.
+- **Deep Device Fingerprinting**:
+  - **MAC OUI Lookup**: Identify device manufacturers.
+  - **Service Discovery**: Scan common ports and extract service banners.
+  - **OS Classification**: Heuristic classification of device operating systems.
+  - **Protocol Analysis**: DHCP, HTTP, and TCP fingerprinting for high-accuracy identification.
+- **Modern Dashboard**: Visual representation of network topology and device details using Flask.
+- **Secure by Design**: Built-in authentication (Bcrypt/OAuth), input validation, and rate limiting.
+- **Flexible Exports**: Save scan results to SQLite and export to JSON or CSV formats.
+- **Report Generation**: Professional PDF/HTML reports for audit documentation.
 
-## Important Note
-Github will be the middle point for the project, so all the code and documentation will be there, and we will use it to track our progress and share our work. We will also use it to collaborate and communicate with each other.
+## 🛠️ Project Structure
 
-## ``Dna9a's`` Part :
-- The whole Python program using `Scapy`
-- Python + Scapy (packet crafting and discovery)
+- `scanner/`: Core Python scanning engine.
+  - `core/`: ARP and Port scanning implementation using Scapy.
+  - `fingerprint/`: OS and service identification logic.
+- `web/`: (Planned/In-Progress) Flask-based dashboard.
+- `reports/`: Generated PDF and HTML audit reports.
 
-### Python script content
-- Scan the network list Ip and mac address
-- List MAC manufacturer
-- Makefile (for dependencies, installation, and runtime)
-- Server security input validation, rate limiting.
-- Report generation (PDF/HTML) using python libraries like `reportlab` or `weasyprint`.
+## 🚦 Quick Start
 
-## ``Dbvonie's`` Part :
-- Server-side logic and Flask app
-- Flask (web interface)
-- login page with bcrypt
-- or GitHub OAuth
-- Flask and Ui interface (Style frontend and backend)
+### Prerequisites
 
-### Interface Part :
-- Animations
-- Dashboard (Visualization of scan results)
-- + Plus (parsing of scan results and display them in a user-friendly way)
-- Authentication page login.... 
-- README.md (Documentation)
-- Notification system (alerts for new devices or suspicious activity using a websocket or polling mechanism)
-- Security measures (input validation, rate limiting, secure storage of scan data)
+- Python 3.8+
+- `sudo` privileges (required for raw socket access / ARP scanning)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/pfe.git
+   cd pfe
+   ```
+
+2. Set up the environment and install dependencies:
+   ```bash
+   make install
+   ```
+
+### Usage
+
+**Run a basic scan (auto-detects network):**
+```bash
+make run-sudo
+```
+
+**Scan a specific network:**
+```bash
+make run NETWORK=192.168.1.0/24
+```
+
+**List previous scans:**
+```bash
+make run-list
+```
+
+## 🔒 Security
+
+This project implements several security best practices:
+- **Authentication**: Dashboard access restricted via Bcrypt or GitHub OAuth.
+- **Input Validation**: Rigorous validation of network ranges and user inputs.
+- **Data Protection**: Secure storage of scan results in an encrypted or restricted SQLite database.
+
+## 👥 Contributors
+
+- **ABIED Youssef** (@Dna9a) - Scanner Engine, Scapy Logic, Security & Reports.
+- **EL-BARAZI Meriem** (@Dbvonie) - Flask Backend, UI/UX, Dashboard & Authentication.
+
+---
+*Developed as a PFE (Projet de Fin d'Études) project.*
+
 
 
 
